@@ -683,10 +683,9 @@ nav {
     transform: scale(1.05);
 }
 
-.fas-fa-paper-plane {
-    font-size: 1rem;
-    margin-right: 8px;
-    font-weight: 500;
+.demo-send i {
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
 }
 
 /* Security & Privacy */
@@ -730,7 +729,7 @@ nav {
 /* Newsletter Enhanced */
 .newsletter {
     padding: 100px 0;
-    background: var(--primary-gradient);
+    background: var(--tertiary-gradient);
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -813,7 +812,7 @@ nav {
 
 .testimonials-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
     margin-top: 5rem;
 }
@@ -882,7 +881,7 @@ nav {
 
 /* Enhanced Footer */
 footer {
-    background: #000;
+    background: transparent;
     padding: 80px 0 40px;
     border-top: 1px solid #333;
 }
@@ -905,7 +904,7 @@ footer {
 .footer-section h3 {
     color: var(--accent-color);
     margin-bottom: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -948,8 +947,14 @@ footer {
     color: var(--accent-color);
 }
 
+.social-link i {
+    font-size: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+
 .social-link:hover {
-    background: var(--accent-color);
+    background: transparent;
     color: #000;
     transform: translateY(-5px);
 }

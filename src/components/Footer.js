@@ -16,6 +16,7 @@ const Footer = () => {
               <a href="#" className="social-link"><i className="fab fa-github"></i></a>
             </div>
           </div>
+          <div className="footer-section"></div>
           <div className="footer-section">
             <h3>Features</h3>
             <a href="#features">Natural Conversations</a>
@@ -26,21 +27,11 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h3>Use Cases</h3>
-            <a href="#use-cases">Education & Learning</a>
             <a href="#use-cases">Business Productivity</a>
             <a href="#use-cases">Creative Projects</a>
             <a href="#use-cases">Research & Analysis</a>
             <a href="#use-cases">Personal Assistant</a>
             <a href="#use-cases">Technical Support</a>
-          </div>
-          <div className="footer-section">
-            <h3>Support</h3>
-            <a href="#faq">FAQ</a>
-            <a href="#">Help Center</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Status Page</a>
           </div>
         </div>
         <div className="footer-bottom">

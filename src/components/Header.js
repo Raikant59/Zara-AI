@@ -12,7 +12,6 @@ const Header = () => {
           <li><a href="#how-it-works">How It Works</a></li>
           <li><a href="#demo">Demo</a></li>
           <li><a href="#testimonials">Reviews</a></li>
-          <li><a href="#faq">FAQ</a></li>
         </ul>
         <a href="#demo" className="cta-button">Try Zara AI Free</a>
       </div>

@@ -21,30 +21,6 @@ const Testimonials = () => {
           </div>
           <div className="testimonial-card">
             <div className="testimonial-text">
-              As a content creator, I was skeptical about AI assistance. But Zara AI doesn't replace creativity - it enhances it. The brainstorming sessions and creative suggestions have taken my work to the next level.
-            </div>
-            <div className="testimonial-author">
-              <div className="author-avatar">MK</div>
-              <div className="author-info">
-                <h4>Marcus Kim</h4>
-                <p>Creative Director & YouTuber</p>
-              </div>
-            </div>
-          </div>
-          <div className="testimonial-card">
-            <div className="testimonial-text">
-              The multilingual capabilities are outstanding. I work with international clients daily, and Zara AI helps me communicate effectively across language barriers while maintaining professional tone and context.
-            </div>
-            <div className="testimonial-author">
-              <div className="author-avatar">AL</div>
-              <div className="author-info">
-                <h4>Ana López</h4>
-                <p>International Business Consultant</p>
-              </div>
-            </div>
-          </div>
-          <div className="testimonial-card">
-            <div className="testimonial-text">
               I use Zara AI for everything from debugging code to explaining complex algorithms to my team. It's incredibly accurate and saves me hours of research time every week. Absolutely indispensable for developers.
             </div>
             <div className="testimonial-author">
@@ -64,18 +40,6 @@ const Testimonials = () => {
               <div className="author-info">
                 <h4>Priya Thakur</h4>
                 <p>Data Analyst, Fortune 500 Company</p>
-              </div>
-            </div>
-          </div>
-          <div className="testimonial-card">
-            <div className="testimonial-text">
-              As an educator, I love how Zara AI adapts its explanations to different learning styles. My students find it incredibly helpful for homework assistance and concept clarification. It's like having a personal tutor.
-            </div>
-            <div className="testimonial-author">
-              <div className="author-avatar">TW</div>
-              <div className="author-info">
-                <h4>Thomas Wright</h4>
-                <p>High School Mathematics Teacher</p>
               </div>
             </div>
           </div>
