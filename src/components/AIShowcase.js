@@ -14,10 +14,10 @@ const AIShowcase = () => {
             </div>
             <div className="demo-content">
               <div className="demo-text">
-                > User: Can you analyze this sales chart and explain the trends?<br /><br />
-                > Zara AI: I can see your Q3 sales data shows a 23% increase over Q2, with particularly strong growth in the mobile segment. The dip in week 8 correlates with the holiday period, which is typical. Your conversion rates improved significantly after the August campaign launch...<br /><br />
-                > User: What recommendations do you have for Q4?<br /><br />
-                > Zara AI: Based on the trends, I recommend focusing on mobile optimization and expanding the successful August campaign strategy...
+                {'>'} User: Can you analyze this sales chart and explain the trends?<br /><br />
+                {'>'} Zara AI: I can see your Q3 sales data shows a 23% increase over Q2, with particularly strong growth in the mobile segment. The dip in week 8 correlates with the holiday period, which is typical. Your conversion rates improved significantly after the August campaign launch...<br /><br />
+                {'>'} User: What recommendations do you have for Q4?<br /><br />
+                {'>'} Zara AI: Based on the trends, I recommend focusing on mobile optimization and expanding the successful August campaign strategy...
               </div>
             </div>
           </div>

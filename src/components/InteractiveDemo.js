@@ -17,7 +17,7 @@ const InteractiveDemo = () => {
           <div className="demo-input-area">
             <input type="text" className="demo-input" id="demoInput" placeholder="Ask me anything or describe what you need help with..." />
             <button className="demo-send" id="demoSend">
-              <i className="fas fa-paper-plane"></i>
+              <i className="fas-fa-paper-plane">Send</i>
             </button>
           </div>
         </div>

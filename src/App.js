@@ -9,7 +9,6 @@ import AIShowcase from './components/AIShowcase';
 import InteractiveDemo from './components/InteractiveDemo';
 import Security from './components/Security';
 import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import './App.css';
@@ -182,9 +181,9 @@ function App() {
         
         window.addEventListener('scroll', () => {
             if (window.scrollY > 100) {
-                nav.style.background = 'rgba(10, 10, 15, 0.98)';
+                nav.style.background = 'transparent';
             } else {
-                nav.style.background = 'rgba(10, 10, 15, 0.95)';
+                nav.style.background = 'transparent';
             }
         });
     }
@@ -303,9 +302,8 @@ function App() {
       <AIShowcase />
       <InteractiveDemo />
       <Security />
-      <Testimonials />
-      <FAQ />
       <Newsletter />
+      <Testimonials />
       <Footer />
     </div>
   );
